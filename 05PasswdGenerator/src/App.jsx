@@ -47,7 +47,7 @@ function App() {
           <input
             type="text"
             value={password}
-            className="outline-none w-full py-1 px-3  rounded-xl py-2 "
+            className="outline-none w-full py-1 px-3  rounded-xl"
             placeholder="Password"
             readOnly
             ref={passwordRef}
@@ -58,7 +58,7 @@ function App() {
           </button>
          </div>
 
-          <div className="flex text-sm gap-x-2 text-xl">
+          <div className="flex  gap-x-2 text-xl">
             <div className="flex items-center gap-x-1">
               <input type="range"
               min={6}
